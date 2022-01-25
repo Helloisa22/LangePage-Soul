@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    font-family: "Open Sans", 'icones', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00BFFF;
+    padding: 8px 16px;
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #00BFFF;
+    width: 75vw;
+    height: 100vh;
+}
+
+.menu-lateral__logo{
+    width: 90px;
+    align-self: center;
+    padding: 16px;
+}
+
+.menu-lateral__link{
+    height: 64px;
+    color: #000000;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+}
