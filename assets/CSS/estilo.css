@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #00BFFF;
-    width: 75vw;
+    width: 65vw;
     height: 100vh;
 }
 
@@ -35,4 +35,14 @@ body{
     padding-left: 64px;
     display: flex;
     align-items: center;
+}
+
+.cabecalho__menu i::before{
+    content: "\e904";
+    font-size: 24px;
+}
+
+.cabecalho__notificacao i::before{
+    content: "\e906";
+    font-size: 24px;
 }
