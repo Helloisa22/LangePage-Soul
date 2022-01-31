@@ -94,10 +94,18 @@ body{
     transition: .35s;
 }
 
-/* .principal{
+.principal{
+    padding: 24px 36px;
     display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.banner_soul {
-    align-items: center;
-} */
+.cartao__conteudo--sobre {
+    background-color: #00BFFF;
+}
+
+.cartao__titulo {
+    text-align: center;
+    padding: 16px;
+}
