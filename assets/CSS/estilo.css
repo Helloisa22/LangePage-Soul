@@ -102,10 +102,18 @@ body{
 }
 
 .cartao__conteudo--sobre {
-    background-color: #00BFFF;
+    /* background-color: #00BFFF; */
+    padding: 0;
+    /* border-radius: 0 0 45px 45px; */
+    margin: 0;
+}
+
+.cartao__texto{
+    padding: 0 0 0 10px;
+    text-align: justify;
 }
 
 .cartao__titulo {
     text-align: center;
-    padding: 16px;
+    padding: 10px;
 }
