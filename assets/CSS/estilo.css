@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: "Open Sans", 'icones', sans-serif;
+    font-family: 'Tilt Neon', cursive, 'icones';
 }
 
 .cabecalho {
@@ -99,21 +99,20 @@ body{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    background-color: #bee9fa;
 }
 
 .cartao__conteudo--sobre {
-    /* background-color: #00BFFF; */
-    padding: 0;
-    /* border-radius: 0 0 45px 45px; */
-    margin: 0;
-}
-
-.cartao__texto{
-    padding: 0 0 0 10px;
-    text-align: justify;
+    border-radius: 0 0 45px 45px;
+    padding: 20px;
+    width: 277px;
 }
 
 .cartao__titulo {
     text-align: center;
-    padding: 10px;
+    padding: 0 0 10px 0;
+}
+
+.cartao__texto{
+    text-align: justify;
 }
