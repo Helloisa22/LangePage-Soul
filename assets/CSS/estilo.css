@@ -135,3 +135,11 @@ body{
 figure{
     padding: 10px;
 }
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00BFFF;
+    padding: 8px 16px;
+}
