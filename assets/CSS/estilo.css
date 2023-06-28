@@ -21,11 +21,9 @@ body{
     background-color: #00BFFF;
     width: 65vw;
     height: 100vh;
-
     position: absolute;
     left: -100vw;
     transition: .35s;
-
 }
 
 .menu-lateral__logo{
@@ -111,11 +109,13 @@ body{
 .cartao__titulo {
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 10px;
     font-weight: 600;
 }
 
 .cartao__texto{
     text-align: justify;
+    padding: 5px;
 }
 
 .subtitulo_video_elenco{
@@ -123,6 +123,14 @@ body{
     font-size:1.4rem;
     font-weight: 800;
     text-align:center;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.carto__sobre a{
+    color: #0690be;
 }
 
 #container{
@@ -142,4 +150,37 @@ figure{
     align-items: center;
     background-color: #00BFFF;
     padding: 8px 16px;
+}
+
+@media only screen and (min-width: 376px) {
+
+    .principal{
+        padding: 24px 36px;
+        display: flex;
+        flex-direction: column;
+        background-color: #bee9fa;
+    }
+
+    .menu-lateral{
+        background-color: #00BFFF; 
+        width: 20vw;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00BFFF;
+        padding: 8px 16px;
+    }
+
+    .cabecalho__menu i::before{
+        content: "\e904";
+        font-size: 2.2em;
+    }
+
+    .cabecalho__notificacao i::before{
+        content: "\e906";
+        font-size: 2.2em;
+    }
 }
