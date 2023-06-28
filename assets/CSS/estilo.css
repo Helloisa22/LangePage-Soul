@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Tilt Neon', cursive, 'icones';
+    /* font-weight: 600; */
 }
 
 .cabecalho {
@@ -106,13 +107,6 @@ body{
     width: 277px;
 }
 
-.cartao__titulo {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-weight: 600;
-}
-
 .cartao__texto{
     text-align: justify;
     padding: 5px;
@@ -120,7 +114,7 @@ body{
 
 .subtitulo_video_elenco{
     padding: 15px;
-    font-size:1.4rem;
+    font-size: 1.8rem;
     font-weight: 800;
     text-align:center;
 }
@@ -133,6 +127,12 @@ strong{
     color: #0690be;
 }
 
+.carto__sobre img{
+    width: 20em;
+    height: 12em;
+    border-radius: 30px;
+}
+
 #container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -143,6 +143,16 @@ strong{
 figure{
     padding: 10px;
 }
+
+/*  Heloisa do Futuro, não apague esse codigo
+.imageTeste{
+    background-image: url("../IMG/download 3Daveed.png");
+    transition: .5s;
+}
+
+.imageTeste:hover {
+    background-image: url("../IMG/secondImagem.jpg");
+} */
 
 .rodape{
     display: flex;
