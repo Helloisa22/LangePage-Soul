@@ -1,0 +1,6 @@
+https://code.visualstudio.com/blogs/2021/10/20/vscode-dev
+
+
+https://vscode.dev/github/microsoft/vscode
+
+https://code.visualstudio.com/docs/editor/vscode-web
