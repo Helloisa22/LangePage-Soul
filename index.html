@@ -24,17 +24,18 @@
         <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
     </header>
     <nav class="menu-lateral menu-lateral--ativo">
-        <a href="#" class="menu-lateral__link menu-lateral__sobre menu-lateral__link--ativo">History</a>
-        <a href="#" class="menu-lateral__link menu-lateral__bastidores">About +</a>
-        <a href="#" class="menu-lateral__link menu-lateral__video">Trailer</a>
-        <a href="#" class="menu-lateral__link menu-lateral__elenco">Cast</a>
+        <a href="#historia" class="menu-lateral__link menu-lateral__sobre menu-lateral__link--ativo">History</a>
+        <a href="#about" class="menu-lateral__link menu-lateral__bastidores">About +</a>
+        <a href="#trailer" class="menu-lateral__link menu-lateral__video">Trailer</a>
+        <a href="#cast" class="menu-lateral__link menu-lateral__elenco">Cast</a>
     </nav>
+
 
     <main class="principal">
         <article class="banner_soul"> <img src="./assets/IMG/soul-cartaz3.svg" class="imagem" alt="Banner Soul"></article>
         
         <div>
-            <article class="carto__sobre">
+            <article class="carto__sobre" id="historia">
                 <h3 class="subtitulo_video_elenco">History</h3>
                 <img src="./assets/IMG/secondImagem.jpg" alt="">
                 <div class="cartao__conteudo--sobre">
@@ -43,7 +44,7 @@
             </article>
     
             <article class="carto__sobre">
-                <h3 class="subtitulo_video_elenco">About +</h3>
+                <h3 class="subtitulo_video_elenco" id="about">About +</h3>
                 <img src="./assets/IMG/cartao_sobre_imagem.jpg" alt="">
                 <div class="cartao__conteudo--sobre">
                     <p class="cartao__texto"><strong>Initial release:</strong> October 11, 2020<p>
@@ -73,12 +74,12 @@
 
         </div>
 
-        <section>
+        <section id="trailer">
             <h2 class="subtitulo_video_elenco">Trailer</h2>
-            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/UC1Tr2pdMSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="video" width="auto" height="auto" src="https://www.youtube.com/embed/UC1Tr2pdMSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
 
-        <section>
+        <section id="cast">
             <h2 class="subtitulo_video_elenco">Cast</h2>
             <div id="container">
                 <figure>

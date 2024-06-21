@@ -170,6 +170,7 @@ figure{
         flex-direction: column;
         background-color: #bee9fa;
         align-items: center;
+        
     }
 
     .menu-lateral{
@@ -198,7 +199,7 @@ figure{
     .carto__sobre{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 100px 80%;
         align-items: center;
     }
 
@@ -207,15 +208,38 @@ figure{
     }
 
     .banner_soul .imagem{
-        height: 70vh;
+        height: 35vh;
     }
     
     .carto__sobre img{
         width: 40vw;
-        height: 60vh;
+        height: 30vh;
     }
 
-    .cartao__texto{
-
+    .cartao__texto {
+        font-size: 1.4em;
     }
+
+    .cartao__conteudo--sobre {
+        width: 90%;
+    }
+
+    .subtitulo_video_elenco {
+        font-size: 2.6rem;
+    }
+
+    #container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.2em;
+    }
+
+    figure img{
+        width: 12vw;
+    }
+
+    #video{
+        width: 60vw;
+        height: 40vh;
+    }
+    
 }
